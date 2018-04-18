@@ -6,7 +6,7 @@ Complete [today's Kata](https://www.codewars.com/kata/highest-scoring-word) and 
 
 ## Lab 12 Submission Instructions
 
-- Create an organization/repos with your partner as you did in steps 1 and 2 in [Lab 11](https://github.com/codefellows-seattle-301n10/11-production-deployment)
+- Create an organization/repos with your partner as you did in step 1 in [Lab 11](https://github.com/codefellows-seattle-301n10/11-production-deployment)
 - Copy [sample-starter-code](https://github.com/codefellows-seattle-301n10/12-client-side-routing/tree/master/sample-starter-code) into your code base, adjusting as needed.
 - Optionally Connect Github and Heroku for automatic deployments.
 - Check out a new branch for today's lab assignment, semantically named `pagejs`. It the previous assignment.
