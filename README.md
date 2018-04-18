@@ -6,11 +6,13 @@ Complete [today's Kata](https://www.codewars.com/kata/highest-scoring-word) and 
 
 ## Lab 12 Submission Instructions
 
-- Continue working in the same repositories from the previous class
+- Create an organization/repos with your partner as you did in steps 1 and 2 in [Lab 11](https://github.com/codefellows-seattle-301n10/11-production-deployment)
+- Copy [sample-starter-code](https://github.com/codefellows-seattle-301n10/12-client-side-routing/tree/master/sample-starter-code) into your code base, adjusting as needed.
+- Optionally Connect Github and Heroku for automatic deployments.
 - Check out a new branch for today's lab assignment, semantically named `pagejs`. It the previous assignment.
 - Complete your **Feature Tasks for the day**
 - Create a Pull Request back to `master`
-- On Canvas, submit a link to your PR and a link to your deployed application on Heroku. **Make sure to include the following:**
+- On Canvas, submit a link to your PR and a link to your deployed applications on Heroku/Github Pages. **Make sure to include the following:**
   - A question within the context of today's lab assignment
   - An observation about the lab assignment, or related 'Ah-hah!' moment
   - How long you spent working on this assignment
@@ -23,6 +25,7 @@ Complete [today's Kata](https://www.codewars.com/kata/highest-scoring-word) and 
 
 - `ENV VARS` - Paste the following commands into your terminal window for testing locally.
   * _Note: these will be temporary while the current shell session (window) is open._
+  * Feel free to use dotenv package if you prefer.
 
 ```
 export PORT=3000
