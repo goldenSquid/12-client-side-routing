@@ -5,6 +5,7 @@
 const express = require('express');
 const cors = require('cors');
 const pg = require('pg');
+require('dotenv').config();
 
 // Application Setup
 const app = express();
@@ -22,7 +23,7 @@ app.use(cors());
 
 // API Endpoints
 
-app.get('*', (req, res) => res.redirect(CLIENT_URL));
+// app.get('*', (req, res) => res.redirect(CLIENT_URL));
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
 
 app.get('/test', (req, res) => {
@@ -30,7 +31,7 @@ app.get('/test', (req, res) => {
 });
 
 app.get('/api/v1/books', (req, res) => {
-  client.query(`SELECT book_id, title, author, image_url, isbn FROM books;`)
+  client.query(`SELECT book_id, title, author, image, isbn FROM books;`)
     .then(results => res.send(results.rows))
     .catch(console.error);
 });
